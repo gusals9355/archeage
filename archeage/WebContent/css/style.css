@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+body { letter-spacing: -0.8px; margin: 0; padding: 0; }
+
+a {	text-decoration: none; }
+
+.navbar { height:50px; }
+.navbar-brand { margin-top: -10px; }
+.nav-item > img { margin-top:20px; }
+.nav-item > a { margin-top:5px; }
+
+.portal-login {	margin-left:15px; }
+
+
+.footer { position: relative; width: 820px; margin: 0 auto; padding: 0; border-top: 0.5px; border-right-style: none; border-left-style: none; border-bottom-style: none; padding-bottom: 46px; border-top-style: solid; border-color: #d6e0e8; }
+.footer .logo-xlgames { position: absolute; top: 14px; right: 0; width: 71px; height: 15px; background-position: 0 -23px; background-image: url('https://www.xlgames.com/resources-202101070816/images/sprite-s82f0e4276c.png'); background-repeat: no-repeat; display: inline-block; vertical-align: middle; }
+.footer address { color : #738b9b; font-size: 11px; line-height: 18px; padding-top: 13px; clear: both; }
+.footer address a { color: #738b9b; font-weight: bold; text-decoration: underline; }
+.footer span { color: #8295a3; font-size: 9px; }
+.footer span strong { color: #4f626f; }
+.footer span strong.b { color: #f0513f; }
+
+.menu-footer { list-style-type: none; padding: 0; margin-top: 15px; }
+.menu-footer li { float: left; }
+.menu-footer li a { color: #5b7282; font-size: 12px;}
+.menu-footer i { width: 1px; height: 11px; background-image: url('https://www.xlgames.com/resources-202101070816/images/sprite-s82f0e4276c.png'); background-repeat: no-repeat; margin-right: 6px; position: relative; background-position: -99px -23px; background-position-x: -99px; background-position-y: -23px; display: inline-block; vertical-align: middle; }
+
+.global-gnb-footer-line { width: 1px; height: 11px; background-image: url('https://www.xlgames.com/resources-202101070816/images/sprite-s82f0e4276c.png'); background-repeat: no-repeat; margin-left: 3px; margin-right: 3px; position: relative; background-position: -99px -23px; background-position-x: -99px; background-position-y: -23px; display: inline-block; vertical-align: middle; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
