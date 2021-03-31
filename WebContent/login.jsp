@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="css/style.css">
 <title>로그인 | XLGAMES 통합회원</title>
 </head>
-<body style="letter-spacing: -0.8px; font-size: 13px; color: #333; background: #edf2f6 url('https://member.xlgames.com/resources-202103180942/images/bg.png') 50% 0 no-repeat; min-width: 823px;">
+<body>
 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 		<div class="container-fluid">
 			<a class="navbar-brand" href="xlgames.jsp"><img src="https://img4.xlgames.com/xlgames/images/portal_gnb/logo-xlgames-small.png"></a>
@@ -28,43 +28,65 @@
 				<li class="nav-item"><a class="nav-link" href="https://cs.xlgames.com/securities/service">보안센터</a></li>
 				<li class="nav-item"><a class="nav-link" href="https://cs.xlgames.com/help/faq/%EC%95%84%ED%82%A4%EC%97%90%EC%9D%B4%EC%A7%80">고객센터</a></li>
 			</ul>
-			<a href="login.jsp"><button type="button" class="portal-login btn btn-secondary btn-sm">로그인</button></a>
+			<a href="login.jsp"><button type="button" class="portal-login btn btn-secondary btn-sm" style="">로그인</button></a>
 		</div>
 	</nav>
 	
-	<div class="wrap-content" style="width: 820px; margin: 0 auto; padding: 60px 0 61px; ">
-		<section class="content" style="width: 738px; border: 1px solid #dbe5ed; background-color: #fff; padding-top: 29px; padding-bottom: 50px; padding-left: 40px; padding-right: 40px; min-height: 450px; ">
-			<header class="content-title" style="border-bottom: 1px solid #eaeaea; padding-bottom: 15px; margin-bottom: 30px;">
-				<h1 style="color: #5b7282; font-size: 19px; font-weight: bold;">로그인을 해주세요.</h1>
-				<p style=" color: #666; line-height: 22px; margin-top: 6px;">아직 아이디가 없다면 회원가입을 해주세요.</p>
+	<div class="wrap-content">
+		<section class="content">
+			<header class="content-title">
+				<h1>로그인을 해주세요.</h1>
+				<p>아직 아이디가 없다면 회원가입을 해주세요.</p>
 			</header>
-			<article class="login-form" style="padding-top: 16px; padding-bottom: 50px; text-align: center">
+			<article class="login-form">
 				<form action="login.action" method="post">
-					<div class="login-keyboard-rowloginCm" style="margin-bottom: 9px; margin-left: -175px;">
+					<div class="login-keyboard-rowloginCm">
 						<input type="checkbox" name="chk_save_username" id="chk_save_username" value="true">
 						<label for="chk_save_username">아이디 저장</label>
 					</div>
 					<div>
-						<input class="input-txt-login" type="text" placeholder="아이디" style="position: relative; margin-bottom: 8px; width: 258px; height: 40px; font-weight: bold; border: 1px solid #dfdfdf; padding: 3px 5px; background: #fff; ">
+						<input class="input-txt-login" type="text" placeholder="아이디" autofocus>
 					</div>
 					<div>
-						<input class="input-txt-login" type="password" id="" placeholder="비밀번호" style="position: relative; margin-bottom: 8px; width: 258px; height: 40px; font-weight: bold; border: 1px solid #dfdfdf; padding: 3px 5px; background: #fff;">
+						<input class="input-txt-login" type="password" id="" placeholder="비밀번호">
 					</div>
-					<button class="btn btn-primary" type="submit" id="loginButton" style="width: 258px; margin-top: 7px; opacity: 60%">로그인</button>
+					<button class="btn-login-form btn btn-primary" type="submit" id="loginButton">로그인</button>
 				</form>
-				<div class="login-form-link" style="text-align: center">
-					<a href="join.jsp" class="login-form-link-join" style="text-decoration: none; cursor: pointer; color: #333; font-weight: bold; font-size: 12px;">회원가입</a>
-					<span class="txt-bar" style="margin: 0 4px;">|</span>
-					<a href="join.jsp" class="login-form-link-join" style="text-decoration: none; cursor: pointer; color: #666; font-size: 12px;">아이디찾기</a>
-					<span class="txt-bar" style="margin: 0 4px;">|</span>
-					<a href="join.jsp" class="login-form-link-join" style="text-decoration: none; cursor: pointer; color: #666; font-size: 12px;">비밀번호찾기</a>
-					<span class="txt-bar" style="margin: 0 4px;">|</span>
-					<a href="join.jsp" class="login-form-link-join" style="text-decoration: none; cursor: pointer; color: #666; font-size: 12px;">휴면 계정 재이용</a>
+				<div class="login-form-link">
+					<a href="join.jsp" class="login-form-link-join" style="font-weight: bold;">회원가입</a>
+					<span class="txt-bar">|</span>
+					<a href="join.jsp" class="login-form-link-join">아이디찾기</a>
+					<span class="txt-bar">|</span>
+					<a href="join.jsp" class="login-form-link-join" >비밀번호찾기</a>
+					<span class="txt-bar">|</span>
+					<a href="join.jsp" class="login-form-link-join">휴면 계정 재이용</a>
 				</div>
 				<div class="sns-wrap">
-					<button type="button"  >
+					<button type="button" class="btn btn-light btn-login-sns">
+						<i class="bi bi-facebook"></i>페이스북 로그인
+					</button>
+				</div>
+				<div class="sns-wrap">
+					<button type="button" class="btn btn-light btn-login-sns" style="">
+						<i class="ico-sns-google"></i>구글 로그인
+					</button>
 				</div>
 			</article>
+			<div class="login-txt-notice">
+				<dl> <!-- definition list 정의 목록 -->
+					<dt><!-- difinition term 정의 용어 -->
+						<i class="ico-notice"></i> 로그인 안내</dt>  
+					<dd>입력한 본인확인 정보는 본인확인에만 사용되며 이외의 용도로 사용 또는 저장하지 않습니다. <!-- difinition description 정의 설명 -->
+					<dd>인증이 정상적으로 작동하지 않으면 <strong>브라우저 팝업 차단 기능을 해제</strong>하고 이용하시기 바랍니다.
+				</dl>
+				<dl> 
+					<dt>
+						<i class="ico-notice"></i> 고객상담 안내</dt> 
+					<dd>상담시간 : 10:00 ~ 12:00/ 13:00 ~ 19:00 (토,일, 공휴일 휴무) <!-- difinition description 정의 설명 -->
+					<dd>대표전화 : <strong>1566-0550</strong> (전국공통)
+					<dd>FAX번호 : 070-7614-3183
+				</dl>
+			</div>
 		</section>
 	</div>
 	

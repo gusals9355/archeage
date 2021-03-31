@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+body { letter-spacing: -0.8px; margin: 0; padding: 0; font-size: 13px; color: #333; background: #edf2f6 url('https://member.xlgames.com/resources-202103180942/images/bg.png') 50% 0 no-repeat; min-width: 823px; }
+
+a {	text-decoration: none; }
+
+.navbar { height:50px; }
+.navbar-brand { margin-top: -10px; }
+.nav-item > img { margin-top:20px; }
+.nav-item > a { margin-top:5px; }
+
+.portal-login {	margin-left:15px; }
+
+.wrap-content { width: 820px; margin: 0 auto; padding: 60px 0 61px;}
+.content {width: 738px; border: 1px solid #dbe5ed; background-color: #fff; padding-top: 29px; padding-bottom: 50px; padding-left: 40px; padding-right: 40px; min-height: 450px; }
+.content-title {border-bottom: 1px solid #eaeaea; padding-bottom: 15px; margin-bottom: 30px;}
+.content-title h1{ color: #5b7282; font-size: 19px; font-weight: bold;}
+.content-title p { color: #666; line-height: 22px; margin-top: 6px; }
+
+.login-form{ padding-top: 16px; padding-bottom: 50px; text-align: center;}
+.login-keyboard-rowloginCm { margin-bottom: 9px; margin-left: -175px; }
+.input-txt-login { position: relative; margin-bottom: 8px; width: 258px; height: 40px; font-weight: bold; border: 1px solid #dfdfdf; padding: 3px 5px; background: #fff; }
+.btn-login-form { width: 258px; margin-top: 7px; opacity: 60%; }
+.login-form-link { text-align: center; margin: 35px 0 7px; }
+.login-form-link .login-form-link-join { text-decoration: none; cursor: pointer; color: #666; font-size: 12px; }
+.login-form-link .txt-bar { margin: 0 4px; }
+
+.sns-wrap .btn-login-sns { width: 258px; height: 40px; margin-top: 10px; background-color: #edf2f6; border-color: #cbd7e1; color: #5b8db5; font-weight: bold;}
+.sns-wrap .bi-facebook { margin-right: 3px;}
+.sns-wrap .ico-sns-google { margin-right: 6px; margin-top: -2px; width: 17px; height: 18px; background-position: -56px 0; background-position-x: -56px; background-position-y: 0px; background-image: url('https://member.xlgames.com/resources-202103250943/images/sprite-s82f0e4276c.png'); background-repeat: no-repeat; display: inline-block; vertical-align: middle; }
+
+.login-txt-notice{ border-top: 1px solid #eaeaea; padding-top: 27px; }
+.login-txt-notice dl { margin-top: 20px; }
+.login-txt-notice dt { color: #5b7282; font-weight: bold; margin-bottom: 5px;}
+.login-txt-notice dd { font-size: 12px; padding-left: 20px; margin-bottom: 5px; }
+.login-txt-notice .ico-notice { width: 16px; height: 16px; background-image: url('https://member.xlgames.com/resources-202103250943/images/sprite-s82f0e4276c.png'); background-repeat: no-repeat; display: inline-block; vertical-align: middle; }
+.login-txt-notice strong { color: #378ccd; font-weight: normal; }
+
+.footer { position: relative; width: 820px; margin: 0 auto; padding: 0; border-top: 0.5px; border-right-style: none; border-left-style: none; border-bottom-style: none; padding-bottom: 46px; border-top-style: solid; border-color: #d6e0e8; }
+.footer .logo-xlgames { position: absolute; top: 14px; right: 0; width: 71px; height: 15px; background-position: 0 -23px; background-image: url('https://www.xlgames.com/resources-202101070816/images/sprite-s82f0e4276c.png'); background-repeat: no-repeat; display: inline-block; vertical-align: middle; }
+.footer address { color : #738b9b; font-size: 11px; line-height: 18px; padding-top: 13px; clear: both; }
+.footer address a { color: #738b9b; font-weight: bold; text-decoration: underline; }
+.footer span { color: #8295a3; font-size: 9px; }
+.footer span strong { color: #4f626f; }
+.footer span strong.b { color: #f0513f; }
+
+.menu-footer { list-style-type: none; padding: 0; margin-top: 15px; }
+.menu-footer li { float: left; }
+.menu-footer li a { color: #5b7282; font-size: 12px;}
+.menu-footer i { width: 1px; height: 11px; background-image: url('https://www.xlgames.com/resources-202101070816/images/sprite-s82f0e4276c.png'); background-repeat: no-repeat; margin-right: 6px; position: relative; background-position: -99px -23px; background-position-x: -99px; background-position-y: -23px; display: inline-block; vertical-align: middle; }
+
+.global-gnb-footer-line { width: 1px; height: 11px; background-image: url('https://www.xlgames.com/resources-202101070816/images/sprite-s82f0e4276c.png'); background-repeat: no-repeat; margin-left: 3px; margin-right: 3px; position: relative; background-position: -99px -23px; background-position-x: -99px; background-position-y: -23px; display: inline-block; vertical-align: middle; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
