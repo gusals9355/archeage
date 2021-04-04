@@ -45,10 +45,17 @@
 						<label for="chk_save_username">아이디 저장</label>
 					</div>
 					<div>
-						<input class="input-txt-login" type="text" name="userID" placeholder="아이디" autofocus required="required">
+						<input class="input-txt-login" type="text" name="userID" placeholder="아이디" autofocus>
 					</div>
 					<div>
-						<input class="input-txt-login" type="password" name="userPassword" placeholder="비밀번호" required="required">
+						<input class="input-txt-login" type="password" name="userPassword" placeholder="비밀번호">
+					</div>
+					<%
+						String msg = (String)request.getAttribute("error");
+						if(msg == null) msg="";
+					%>
+					<div class="error">
+						<%=msg %>
 					</div>
 					<button class="btn-login-form btn btn-primary" type="submit" id="loginButton">로그인</button>
 				</form>

@@ -17,6 +17,7 @@
 	<%
 		UserDAO userDAO = new UserDAO();
 		int result = userDAO.login(user.getUserID(), user.getUserPassword());
+		
 		if(result == 1){
 			PrintWriter script = response.getWriter();
 			script.println("<script>");
@@ -43,7 +44,18 @@
 			script.println("alert('데이터베이스 오류가 발생했습니다.');");
 			script.println("history.back();");
 			script.println("</script>");
+			
 		}
+		
+		String userID = request.getParameter("userID");
+		String userPassword = request.getParameter("userPassword");
+		
+		if(userID.isEmpty() || userPassword.isEmpty()){
+			request.setAttribute("error", "아이디 또는 비밀번호를 확인해주세요");
+			RequestDispatcher rd = request.getRequestDispatcher("login.jsp");
+			rd.forward(request, response);
+		}
+		
 	%>
 </body>
 </html>
