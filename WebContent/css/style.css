@@ -36,6 +36,10 @@ a {	text-decoration: none; }
 .login-txt-notice .ico-notice { width: 16px; height: 16px; background-image: url('https://member.xlgames.com/resources-202103250943/images/sprite-s82f0e4276c.png'); background-repeat: no-repeat; display: inline-block; vertical-align: middle; }
 .login-txt-notice strong { color: #378ccd; font-weight: normal; }
 
+.txt-join-welcome .ico-xlgames{ top: -15px; left: 8px; width: 13px; height: 13px; background-position: -29px -38px; background-image: url('https://member.xlgames.com/resources-202104010944/images/sprite-s82f0e4276c.png'); background-repeat: no-repeat; display: inline-block; vertical-align: middle; position: relative;}
+.txt-join-welcome { color: #4b6170; font-size: 30px; letter-spacing: -2px; padding: 38px 0 0; text-align: center; margin: 0 auto; }
+.txt-join-welcome strong {color: #ff5744; font-weight: normal;}
+
 .footer { position: relative; width: 820px; margin: 0 auto; padding: 0; border-top: 0.5px; border-right-style: none; border-left-style: none; border-bottom-style: none; padding-bottom: 46px; border-top-style: solid; border-color: #d6e0e8; }
 .footer .logo-xlgames { position: absolute; top: 14px; right: 0; width: 71px; height: 15px; background-position: 0 -23px; background-image: url('https://www.xlgames.com/resources-202101070816/images/sprite-s82f0e4276c.png'); background-repeat: no-repeat; display: inline-block; vertical-align: middle; }
 .footer address { color : #738b9b; font-size: 11px; line-height: 18px; padding-top: 13px; clear: both; }
@@ -50,7 +54,6 @@ a {	text-decoration: none; }
 .menu-footer i { width: 1px; height: 11px; background-image: url('https://www.xlgames.com/resources-202101070816/images/sprite-s82f0e4276c.png'); background-repeat: no-repeat; margin-right: 6px; position: relative; background-position: -99px -23px; background-position-x: -99px; background-position-y: -23px; display: inline-block; vertical-align: middle; }
 
 .global-gnb-footer-line { width: 1px; height: 11px; background-image: url('https://www.xlgames.com/resources-202101070816/images/sprite-s82f0e4276c.png'); background-repeat: no-repeat; margin-left: 3px; margin-right: 3px; position: relative; background-position: -99px -23px; background-position-x: -99px; background-position-y: -23px; display: inline-block; vertical-align: middle; }
-
 
 
 

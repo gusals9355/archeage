@@ -39,16 +39,16 @@
 				<p>아직 아이디가 없다면 회원가입을 해주세요.</p>
 			</header>
 			<article class="login-form">
-				<form action="login.action" method="post">
+				<form action="loginAction.jsp" method="post">
 					<div class="login-keyboard-rowloginCm">
 						<input type="checkbox" name="chk_save_username" id="chk_save_username" value="true">
 						<label for="chk_save_username">아이디 저장</label>
 					</div>
 					<div>
-						<input class="input-txt-login" type="text" placeholder="아이디" autofocus>
+						<input class="input-txt-login" type="text" name="userID" placeholder="아이디" autofocus required="required">
 					</div>
 					<div>
-						<input class="input-txt-login" type="password" id="" placeholder="비밀번호">
+						<input class="input-txt-login" type="password" name="userPassword" placeholder="비밀번호" required="required">
 					</div>
 					<button class="btn-login-form btn btn-primary" type="submit" id="loginButton">로그인</button>
 				</form>
@@ -82,7 +82,7 @@
 				<dl> 
 					<dt>
 						<i class="ico-notice"></i> 고객상담 안내</dt> 
-					<dd>상담시간 : 10:00 ~ 12:00/ 13:00 ~ 19:00 (토,일, 공휴일 휴무) <!-- difinition description 정의 설명 -->
+					<dd>상담시간 : 10:00 ~ 12:00/ 13:00 ~ 19:00 (토,일, 공휴일 휴무)
 					<dd>대표전화 : <strong>1566-0550</strong> (전국공통)
 					<dd>FAX번호 : 070-7614-3183
 				</dl>
